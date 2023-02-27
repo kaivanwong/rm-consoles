@@ -1,0 +1,28 @@
+{
+  "name": "rm-consoles",
+  "version": "0.0.0",
+  "description": "A plugin for deleting console.log statements for javascript / typescript",
+  "packageManager": "pnpm@7.25.0",
+  "author": "Kaivan Wong <kaivanwong@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/kaivanwong/rm-consoles#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaivanwong/rm-consoles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaivanwong/rm-consoles/issues"
+  },
+  "keywords": [
+    "consoles",
+    "console.log",
+    "console.warn",
+    "console.error",
+    "javascript",
+    "typescript",
+    "rm",
+    "delete"
+  ],
+  "main": "index.js",
+  "scripts": {}
+}
