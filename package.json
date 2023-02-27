@@ -1,8 +1,8 @@
 {
   "name": "rm-consoles",
   "version": "0.0.0",
-  "description": "A plugin for deleting console.log statements for javascript / typescript",
   "packageManager": "pnpm@7.25.0",
+  "description": "A plugin for deleting console.log statements for javascript / typescript",
   "author": "Kaivan Wong <kaivanwong@outlook.com>",
   "license": "MIT",
   "homepage": "https://github.com/kaivanwong/rm-consoles#readme",
@@ -23,6 +23,20 @@
     "rm",
     "delete"
   ],
-  "main": "index.js",
-  "scripts": {}
+  "main": "./src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@kaivanwong/eslint-config": "^0.13.11",
+    "eslint": "^8.35.0",
+    "typescript": "^4.9.5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@kaivanwong"
+    ]
+  }
 }
